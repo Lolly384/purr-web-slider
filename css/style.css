@@ -1,0 +1,81 @@
+body{
+    background-color: aqua;
+}
+.content{
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+}
+.slider{
+    position: relative;
+}
+.list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 143px;
+    width: 560px;
+    /* transition: all ease 1s; */
+}
+.track{
+    opacity: 1;
+    width: 6720px;
+    transform: translate3d(-560px, 0px, 0px);
+    position: relative;
+}
+.slide{
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    width: 560px;
+    display: block;
+}
+h3{
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+button{
+    position: absolute;
+    top: 60px;
+}
+.btnNext{
+    right: 0px;
+}
+.btnPrev{
+    left: -35px;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+} 
+.slider-dots{
+    position: absolute;
+    left: 250px;
+}
+.slider-dots_item:hover{
+    background: rgb(0, 0, 0, 0.5);
+}
+.active{
+    background: #000    ;
+}
+button{
+    background: transparent;
+    border: none;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
